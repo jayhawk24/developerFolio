@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "",
+  resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -129,7 +128,7 @@ const educationInfo = {
       schoolName: "Gurukul Kangri Vishwavidyalaya",
       logo: require("./assets/images/gurukul.jpg"),
       subHeader: "Bachelor of Technology in Computer Science",
-      duration: "July 2017 - June 2021",
+      duration: "July 2017 - June 2021"
     }
   ]
 };
@@ -169,7 +168,7 @@ const workExperiences = {
       descBullets: [
         "Spearheaded the design and meticulous testing of APIs using FastAPI, contributing crucially to the success of a cutting-edge healthcare project. Now has ~500 users.",
         "Automated project kickstart by crafting reusable boilerplate code across various frontend repositories and instituted robust CI/CD pipelines for seamless staging and production deployments",
-        "Engineered innovative React Native applications for both a Real Estate trading platform and a healthcare application, showcasing versatility in addressing diverse project requirements.",
+        "Engineered innovative React Native applications for both a Real Estate trading platform and a healthcare application, showcasing versatility in addressing diverse project requirements."
       ]
     },
     {
@@ -184,7 +183,6 @@ const workExperiences = {
         "Exercised effective leadership skills by supervising a dynamic team of 2 developers and 2 interns, offering mentorship, conducting comprehensive code reviews, and fostering collaborative pair programming sessions."
       ]
     }
-
   ]
 };
 
@@ -205,7 +203,8 @@ const bigProjects = {
     {
       image: require("./assets/images/BRITE-300.png"),
       projectName: "Brite Live",
-      projectDesc: "Brite is a visionary platform aiming to streamline hormone therapy management, connecting patients, doctors and pharmacy",
+      projectDesc:
+        "Brite is a visionary platform aiming to streamline hormone therapy management, connecting patients, doctors and pharmacy",
       footerLink: [
         {
           name: "Visit Website",
@@ -217,7 +216,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ibda.png"),
       projectName: "IBDA",
-      projectDesc: "Real Estate Investment Trust trading platform in Saudi Arabia",
+      projectDesc:
+        "Real Estate Investment Trust trading platform in Saudi Arabia",
       footerLink: [
         {
           name: "Visit Website",
@@ -279,7 +279,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -304,7 +304,6 @@ const blogSection = {
     //   description:
     //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     // },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
